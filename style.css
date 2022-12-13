@@ -1,0 +1,24 @@
+h1 {
+    color: white;
+}
+
+h2, h3 {
+    color: #797979;
+}
+
+h4, .verde-agua {
+    color: #38AF90;
+}
+
+#header {
+    background-color: #38AF90;
+}
+
+
+.card img {
+    height: 168.53932189941406px;
+width: 300px;
+left: 0px;
+top: 0px;
+border-radius: 0px;
+}
