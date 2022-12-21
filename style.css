@@ -1,24 +1,141 @@
-h1 {
-    color: white;
-}
+ 
+    @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-h2, h3 {
-    color: #797979;
-}
+    * {
+        font-family: 'Poppins', sans-serif;
+    }
+           
+           h1 {
+                color: white;
+            }
 
-h4, .verde-agua {
-    color: #38AF90;
-}
+            h2, h4,p {
+                color: #797979;
+            }
 
-#header {
-    background-color: #38AF90;
-}
+            h3,h5, .verde-agua {
+                color: #38AF90;
+            }
+
+            h5 {
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 10px;
+                line-height: 10px;
+            }
+
+            #header {
+                background-color: #38AF90;
+                
+                width: 1330px;
+                height: 90px;
+                left: 0px;
+                top: 0px;
+
+            }
+            .barra {
+                position: absolute;
+                width: 570px;
+                height: 20px;
+                left: 800px;
+                top: 34px;
+                
+                font-style: normal;
+                display: flex;
+                align-items: center;
+                
+                color: #FFFFFF;
+                    
+
+            }
+
+            .centro {
+            width: 1300px;
+            height: 20px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                margin: 0 auto;
+            }
+
+             .game {
+                width: 1300px;
+            height: 200px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center; 
+                margin: 0 auto;
+                
+            }
+
+            .sign-up {
+                width: 1300px;
+                height: 200px;
+                margin: 10px auto;
+                border: solid 1px white;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    background: #F0F0F0;
+        border-radius: 8px;
+            }
+
+            .inscricao {
+                width: 1330px;
+                height: 20px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    margin: 0 auto;
+            }
 
 
-.card img {
-    height: 168.53932189941406px;
-width: 300px;
-left: 0px;
-top: 0px;
-border-radius: 0px;
-}
+            .card img {
+            height: 168.53932189941406px;
+            width: 300px;
+            left: 0px;
+            top: 0px;
+            border-radius: 0px;
+            }
+
+            .bloco {
+                background: #F0F0F0;
+                border-radius: 8px;
+                width: 100%;  
+                max-width: 960px;
+                margin: 0 auto;   
+            }
+
+            .box {
+                position: absolute;
+                background: #F0F0F0;
+                border-radius: 8px;
+            }
+
+            footer {
+                 position: absolute;
+                width: 1330px;
+                height: 190px;
+                left: 0px;
+                top: 2780px;
+                background: #383838;
+                margin: 0 auto;
+             }
+
+             .container p {
+                color: white;
+                margin: 0 auto;
+                width: 1000px;
+                height: 36px;
+
+
+             }
+
+             .container h3 {
+                color: white;
+                margin: 0 auto;
+                width: 500px;
+                height: 36px;
+             }
+           
