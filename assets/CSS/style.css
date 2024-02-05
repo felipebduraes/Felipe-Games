@@ -36,15 +36,13 @@
             }
             .barra {
                 position: absolute;
-                width: 570px;
-                height: 20px;
-                left: 800px;
-                top: 34px;
-                
+                width: 495px;
+                height: 66px;
+                left: 947px;
+                top: 36px;
                 font-style: normal;
                 display: flex;
                 align-items: center;
-                
                 color: #FFFFFF;
                     
 
@@ -78,7 +76,7 @@
                     flex-wrap: wrap;
                     justify-content: center;
                     background: #F0F0F0;
-        border-radius: 8px;
+                    border-radius: 8px;
             }
 
             .inscricao {
@@ -125,9 +123,9 @@
 
              .container p {
                 color: white;
-                margin: 0 auto;
-                width: 1000px;
-                height: 36px;
+                margin: 18px auto;
+                width: 1085px;
+                height: 35px;
 
 
              }
