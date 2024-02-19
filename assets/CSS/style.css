@@ -27,29 +27,29 @@
 
             #header {
                 background-color: #38AF90;
-                
-                width: 1330px;
-                height: 90px;
+                width: 1244px;
+                height: 86px;
                 left: 0px;
                 top: 0px;
 
             }
             .barra {
                 position: absolute;
-                width: 495px;
-                height: 66px;
-                left: 947px;
+                width: 494px;
+                height: 67px;
+                left: 1177px;
                 top: 36px;
                 font-style: normal;
                 display: flex;
                 align-items: center;
                 color: #FFFFFF;
+}
                     
 
-            }
+        
 
             .centro {
-            width: 1300px;
+            width: 1021px;
             height: 20px;
                 display: flex;
                 flex-wrap: wrap;
@@ -68,15 +68,15 @@
             }
 
             .sign-up {
-                width: 1300px;
+                width: 979px;
                 height: 200px;
-                margin: 10px auto;
+                margin: 17px auto;
                 border: solid 1px white;
-                    display: flex;
-                    flex-wrap: wrap;
-                    justify-content: center;
-                    background: #F0F0F0;
-                    border-radius: 8px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                background: #F0F0F0;
+                border-radius: 13px;
             }
 
             .inscricao {
@@ -112,9 +112,9 @@
             }
 
             footer {
-                 position: absolute;
-                width: 1330px;
-                height: 190px;
+                position: absolute;
+                width: 1900px;
+                height: 152px;
                 left: 0px;
                 top: 2780px;
                 background: #383838;
@@ -123,17 +123,18 @@
 
              .container p {
                 color: white;
-                margin: 18px auto;
-                width: 1085px;
-                height: 35px;
+                margin: 21px auto;
+                width: 1082px;
+                height: 31px;
+}
 
 
-             }
+             
 
              .container h3 {
                 color: white;
-                margin: 0 auto;
-                width: 500px;
-                height: 36px;
+                margin: -45px auto;
+                width: 733px;
+                height: 37px;
              }
            
