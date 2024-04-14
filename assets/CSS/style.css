@@ -3,6 +3,10 @@
 
     * {
         font-family: 'Poppins', sans-serif;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        
     }
            
            h1 {
@@ -25,29 +29,59 @@
                 line-height: 10px;
             }
 
-            #header {
+            .nav-container {
                 background-color: #38AF90;
-                width: 1244px;
-                height: 86px;
-                left: 0px;
-                top: 0px;
-
+                width: 100%;
+                height: 88px;
+                padding: 20px;
+                position: fixed;
+                
             }
-            .barra {
-                position: absolute;
-                width: 494px;
-                height: 67px;
-                left: 1177px;
-                top: 36px;
-                font-style: normal;
+
+            .nav-main {
+                width: 100%;
+                max-width: 960px;
+                margin: 0 auto;
                 display: flex;
-                align-items: center;
-                color: #FFFFFF;
+                flex-direction: column;      
+        }
+
+        .nav-brand {
+            font-size: 36px;
+            font-weight: 700;
+            color: white;
+            text-decoration: none;
+            margin-bottom: 5px;
+        }
+
+        .barra {
+            position: absolute;
+            width: 494px;
+            height: 67px;
+            left: 1177px;
+            top: 36px;
+            font-style: normal;
+            display: flex;
+            padding: 0;
+            margin: 0;
+            list-style-type: none;
+            align-items: center;
+            color: #FFFFFF;
+            justify-content: center;
+            
 }
+
+        .barra a {
+            color: white;
+            text-transform: uppercase;
+            text-decoration: none;
+            padding: 20px;
+        }
+
+        .barra li {
+        margin: 15px 10px 10px 10px;
+        }
                     
-
-        
-
             .centro {
             width: 1021px;
             height: 20px;
@@ -55,6 +89,7 @@
                 flex-wrap: wrap;
                 justify-content: center;
                 margin: 0 auto;
+                padding: 160px 0 60px 0;
             }
 
              .game {
@@ -113,12 +148,14 @@
 
             footer {
                 position: absolute;
-                width: 1900px;
+                width: 100%; 
                 height: 152px;
                 left: 0px;
                 top: 2780px;
                 background: #383838;
                 margin: 0 auto;
+                
+                
              }
 
              .container p {
@@ -126,7 +163,16 @@
                 margin: 21px auto;
                 width: 1082px;
                 height: 31px;
+                
 }
+
+            .container a {
+            
+                display: flex;
+                flex-direction: column;
+                align-itens: center;
+                
+            }
 
 
              
